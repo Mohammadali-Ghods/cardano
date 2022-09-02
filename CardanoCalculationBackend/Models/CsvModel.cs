@@ -9,7 +9,7 @@ namespace CardanoCalculationBackend.Models
         public decimal notional { get; set; }
         public string? notional_currency { get; set; }
         public string? transaction_type { get; set; }
-        public DateTime? transaction_datetime { get; set; }
+        public DateTime transaction_datetime { get; set; }
         public decimal rate { get; set; }
         public string? lei { get; set; }
         public LegalName? legalname { get; set; }

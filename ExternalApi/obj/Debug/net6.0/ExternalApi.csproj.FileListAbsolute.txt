@@ -10,3 +10,15 @@ C:\Users\Mohammadali\source\repos\cardano\CardanoDatasetCalculation\ExternalApi\
 C:\Users\Mohammadali\source\repos\cardano\CardanoDatasetCalculation\ExternalApi\obj\Debug\net6.0\ExternalApi.dll
 C:\Users\Mohammadali\source\repos\cardano\CardanoDatasetCalculation\ExternalApi\obj\Debug\net6.0\ref\ExternalApi.dll
 C:\Users\Mohammadali\source\repos\cardano\CardanoDatasetCalculation\ExternalApi\obj\Debug\net6.0\ExternalApi.pdb
+C:\Users\Mohammadali\Source\Repos\cardanofinal\ExternalApi\bin\Debug\net6.0\ExternalApi.deps.json
+C:\Users\Mohammadali\Source\Repos\cardanofinal\ExternalApi\bin\Debug\net6.0\ExternalApi.dll
+C:\Users\Mohammadali\Source\Repos\cardanofinal\ExternalApi\bin\Debug\net6.0\ref\ExternalApi.dll
+C:\Users\Mohammadali\Source\Repos\cardanofinal\ExternalApi\bin\Debug\net6.0\ExternalApi.pdb
+C:\Users\Mohammadali\Source\Repos\cardanofinal\ExternalApi\obj\Debug\net6.0\ExternalApi.csproj.AssemblyReference.cache
+C:\Users\Mohammadali\Source\Repos\cardanofinal\ExternalApi\obj\Debug\net6.0\ExternalApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammadali\Source\Repos\cardanofinal\ExternalApi\obj\Debug\net6.0\ExternalApi.AssemblyInfoInputs.cache
+C:\Users\Mohammadali\Source\Repos\cardanofinal\ExternalApi\obj\Debug\net6.0\ExternalApi.AssemblyInfo.cs
+C:\Users\Mohammadali\Source\Repos\cardanofinal\ExternalApi\obj\Debug\net6.0\ExternalApi.csproj.CoreCompileInputs.cache
+C:\Users\Mohammadali\Source\Repos\cardanofinal\ExternalApi\obj\Debug\net6.0\ExternalApi.dll
+C:\Users\Mohammadali\Source\Repos\cardanofinal\ExternalApi\obj\Debug\net6.0\ref\ExternalApi.dll
+C:\Users\Mohammadali\Source\Repos\cardanofinal\ExternalApi\obj\Debug\net6.0\ExternalApi.pdb
