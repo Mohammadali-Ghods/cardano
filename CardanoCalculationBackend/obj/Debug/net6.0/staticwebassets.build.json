@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "l/Q3FCMdiHMqwtXFRdde2wMYl2w3hqW0/pzqPiJ/NFA=",
+  "Source": "CardanoCalculationBackend",
+  "BasePath": "_content/CardanoCalculationBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CardanoCalculationBackend\\wwwroot",
+      "Source": "CardanoCalculationBackend",
+      "ContentRoot": "C:\\Users\\Mohammadali\\source\\repos\\cardano\\CardanoDatasetCalculation\\CardanoCalculationBackend\\wwwroot\\",
+      "BasePath": "_content/CardanoCalculationBackend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Mohammadali\\source\\repos\\cardano\\CardanoDatasetCalculation\\CardanoCalculationBackend\\wwwroot\\Start.html",
+      "SourceId": "CardanoCalculationBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mohammadali\\source\\repos\\cardano\\CardanoDatasetCalculation\\CardanoCalculationBackend\\wwwroot\\",
+      "BasePath": "_content/CardanoCalculationBackend",
+      "RelativePath": "Start.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Start.html"
+    }
+  ]
+}

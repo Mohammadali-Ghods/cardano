@@ -1,0 +1,8 @@
+C:\Users\Mohammadali\source\repos\cardano\CardanoDatasetCalculation\CardanoDatasetCalculation\obj\Debug\net6.0\CardanoDatasetCalculation.csproj.AssemblyReference.cache
+C:\Users\Mohammadali\source\repos\cardano\CardanoDatasetCalculation\CardanoDatasetCalculation\obj\Debug\net6.0\CardanoDatasetCalculation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammadali\source\repos\cardano\CardanoDatasetCalculation\CardanoDatasetCalculation\obj\Debug\net6.0\CardanoDatasetCalculation.AssemblyInfoInputs.cache
+C:\Users\Mohammadali\source\repos\cardano\CardanoDatasetCalculation\CardanoDatasetCalculation\obj\Debug\net6.0\CardanoDatasetCalculation.AssemblyInfo.cs
+C:\Users\Mohammadali\source\repos\cardano\CardanoDatasetCalculation\CardanoDatasetCalculation\obj\Debug\net6.0\CardanoDatasetCalculation.csproj.CoreCompileInputs.cache
+C:\Users\Mohammadali\source\repos\cardano\CardanoDatasetCalculation\CardanoDatasetCalculation\obj\Debug\net6.0\CardanoDatasetCalculation.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mohammadali\source\repos\cardano\CardanoDatasetCalculation\CardanoDatasetCalculation\obj\Debug\net6.0\CardanoDatasetCalculation.RazorAssemblyInfo.cache
+C:\Users\Mohammadali\source\repos\cardano\CardanoDatasetCalculation\CardanoDatasetCalculation\obj\Debug\net6.0\CardanoDatasetCalculation.RazorAssemblyInfo.cs
