@@ -8,3 +8,13 @@ Also you can go to /swagger link and find API data and create integration with m
 # Easy setup
 You just need to use my docker image and run container and use this system. for this purpose you just need to use below command in your system
 (You need to setup Docker in your system)
+
+docker push unipolygames/cardano
+
+If you want to build Docker image you can find DockerFile in root of the project and you can use it for building image in your system
+
+# Demo
+I published this system in my environment you can easily test this system before make dicision about using it:
+
+https://cardano.codeandsolution.com/start.html
+https://cardano.codeandsolution.com/swagger
