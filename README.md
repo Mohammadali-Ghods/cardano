@@ -17,7 +17,7 @@ If you want to build Docker image you can find DockerFile in root of the project
 I published this system in my environment you can easily test this system before make dicision about using it:
 
 Demo with UI:
-https://cardano.codeandsolution.com/start.html
+https://cardano.codeandsolution.com/Start.html
 
 Swagger:
 https://cardano.codeandsolution.com/swagger
