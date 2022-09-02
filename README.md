@@ -21,3 +21,6 @@ https://cardano.codeandsolution.com/Start.html
 
 Swagger:
 https://cardano.codeandsolution.com/swagger
+
+# How to test
+I uploaded a sampleinputdata.csv in root of the project and you can use this file as a sample input for checking my system.
