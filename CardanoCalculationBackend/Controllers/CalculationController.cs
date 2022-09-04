@@ -36,9 +36,6 @@ namespace CardanoCalculationBackend.Controllers
 
                     if (!data.IsValid().IsValid)
                     {
-                        data.Error = string.Join
-                            ("\n", data.IsValid().Errors.Select(x => x.ErrorMessage).ToArray());
-
                         listOfData.Add(data);
                         continue;
                     }
@@ -47,9 +44,7 @@ namespace CardanoCalculationBackend.Controllers
 
                     if (!result.IsValid().IsValid)
                     {
-                        data.Error = string.Join
-                            ("\n", result.IsValid().Errors.Select(x => x.ErrorMessage).ToArray());
-
+                        data.Error = result.Error;
                         listOfData.Add(data);
                         continue;
                     }

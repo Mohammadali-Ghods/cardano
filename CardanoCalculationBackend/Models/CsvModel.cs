@@ -20,9 +20,13 @@ namespace CardanoCalculationBackend.Models
         public decimal transaction_costs { get; set; }
         public string? Error { get; set; }
 
-        public ValidationResult IsValid() 
+        public ValidationResult IsValid()
         {
-           return new CsvModelValidation().Validate(this);
+            var validationResult = new CsvModelValidation().Validate(this);
+            if (!validationResult.IsValid)
+                Error = string.Join
+                               ("\n", validationResult.Errors.Select(x => x.ErrorMessage).ToArray());
+            return new CsvModelValidation().Validate(this);
         }
     }
 }
