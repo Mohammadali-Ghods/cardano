@@ -1,4 +1,6 @@
-﻿using ExternalApi.Models;
+﻿using CardanoCalculationBackend.Validations;
+using ExternalApi.Models;
+using FluentValidation.Results;
 
 namespace CardanoCalculationBackend.Models
 {
@@ -12,9 +14,15 @@ namespace CardanoCalculationBackend.Models
         public DateTime transaction_datetime { get; set; }
         public decimal rate { get; set; }
         public string? lei { get; set; }
-        public LegalName? legalname { get; set; }
+        public string? name { get; set; }
+        public string? language { get; set; }
         public string? bic { get; set; }
         public decimal transaction_costs { get; set; }
+        public string? Error { get; set; }
 
+        public ValidationResult IsValid() 
+        {
+           return new CsvModelValidation().Validate(this);
+        }
     }
 }

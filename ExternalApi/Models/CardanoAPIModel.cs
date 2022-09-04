@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ExternalApi.Validations;
+using FluentValidation.Results;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +11,11 @@ namespace ExternalApi.Models
     public class CardanoAPIModel
     {
         public List<Data> data { get; set; }
+
+        public ValidationResult IsValid()
+        {
+            return new CardanoAPIModelValidation().Validate(this);
+        }
     }
     public class Data 
     {

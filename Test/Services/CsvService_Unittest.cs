@@ -12,7 +12,7 @@ namespace UnitTest.Services
         {
             string sampleinput = "1030291281MARKITWIRE0000000000000112874138,EZ9724VTXK48,763000.0,GBP,Sell,2020-11-25T15:06:22Z,0.0070956000,XKZZ2JZF41MRHTR1V493";
             CsvService csvService = new CsvService();
-            var result= csvService.FromCardanoCsv(sampleinput);
+            var result= csvService.ConvertCsvLineIntoObject(sampleinput);
             result.lei.Should().Be("XKZZ2JZF41MRHTR1V493");
             result.rate.Should().Be(0.0070956000m);
             result.notional.Should().Be(763000.0m);

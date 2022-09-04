@@ -22,7 +22,7 @@ namespace CardanoCalculationBackend.Controllers
         }
 
         [HttpPost]
-        public async Task<ContentResult> CalculateCsv([FromForm] IFormFile file)
+        public async Task<ContentResult> CaculateAndGetCsv([FromForm] IFormFile file)
         {
             List<CsvModel> listOfData = new List<CsvModel>();
 
@@ -32,18 +32,40 @@ namespace CardanoCalculationBackend.Controllers
 
                 while (reader.Peek() >= 0)
                 {
-                    CsvModel data = _csvService.FromCardanoCsv(reader.ReadLine());
+                    CsvModel data = _csvService.ConvertCsvLineIntoObject(reader.ReadLine());
+
+                    if (!data.IsValid().IsValid)
+                    {
+                        data.Error = string.Join
+                            ("\n", data.IsValid().Errors.Select(x => x.ErrorMessage).ToArray());
+
+                        listOfData.Add(data);
+                        continue;
+                    }
+
                     var result = await _cardanoApi.GetRecord(data.lei);
-                    data.legalname = result.data[0].attributes.entity.legalName;
+
+                    if (!result.IsValid().IsValid)
+                    {
+                        data.Error = string.Join
+                            ("\n", result.IsValid().Errors.Select(x => x.ErrorMessage).ToArray());
+
+                        listOfData.Add(data);
+                        continue;
+                    }
+
+                    data.name = result.data[0].attributes.entity.legalName.name;
+                    data.language = result.data[0].attributes.entity.legalName.language;
                     data.bic = result.data[0].attributes.bic[0];
-                    data.transaction_costs = 
+                    data.transaction_costs =
                         _calculatorService.CalculateTransactioCost(data.rate, data.notional,
                         result.data[0].attributes.entity.legalAddress.country);
+
                     listOfData.Add(data);
                 }
             }
 
-            string outPutFile = 
+            string outPutFile =
                 ServiceStack.Text.CsvSerializer.SerializeToCsv<CsvModel>(listOfData);
 
             return base.Content(outPutFile, "text/csv");

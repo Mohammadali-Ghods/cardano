@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "FluentValidation/11.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -138,6 +147,27 @@
     }
   },
   "libraries": {
+    "FluentValidation/11.2.1": {
+      "sha512": "ZrQD0TGd0mHqf/zErZOEaba8cBeInaJj02nqinO+0La3uE08sJ5ScTYqsCbdx9fLHsX8rh+5KH5RtL2eOUS+OA==",
+      "type": "package",
+      "path": "fluentvalidation/11.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.2.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
     "Microsoft.CSharp/4.5.0": {
       "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
@@ -471,6 +501,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "FluentValidation >= 11.2.1",
       "Microsoft.Extensions.Options >= 6.0.0",
       "Microsoft.IdentityModel.Tokens >= 6.17.0",
       "Newtonsoft.Json >= 13.0.1",
@@ -484,11 +515,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj",
+      "projectUniqueName": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj",
       "projectName": "ExternalApi",
-      "projectPath": "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj",
+      "projectPath": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj",
       "packagesPath": "C:\\Users\\Mohammadali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\ExternalApi\\obj\\",
+      "outputPath": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -521,6 +552,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.2.1, )"
+          },
           "Microsoft.Extensions.Options": {
             "target": "Package",
             "version": "[6.0.0, )"

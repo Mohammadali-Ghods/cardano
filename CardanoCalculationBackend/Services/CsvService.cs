@@ -5,7 +5,7 @@ namespace CardanoCalculationBackend.Services
 {
     public class CsvService
     {
-        public CsvModel FromCardanoCsv(string input)
+        public CsvModel ConvertCsvLineIntoObject(string input)
         {
             string[] values = input.Split(',');
             CsvModel model = new CsvModel();

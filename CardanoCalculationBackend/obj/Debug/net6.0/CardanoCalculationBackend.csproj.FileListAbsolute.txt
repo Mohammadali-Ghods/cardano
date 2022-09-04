@@ -70,3 +70,4 @@ C:\Users\Mohammadali\Source\Repos\cardanofinal\CardanoCalculationBackend\obj\Deb
 C:\Users\Mohammadali\Source\Repos\cardanofinal\CardanoCalculationBackend\obj\Debug\net6.0\ref\CardanoCalculationBackend.dll
 C:\Users\Mohammadali\Source\Repos\cardanofinal\CardanoCalculationBackend\obj\Debug\net6.0\CardanoCalculationBackend.pdb
 C:\Users\Mohammadali\Source\Repos\cardanofinal\CardanoCalculationBackend\obj\Debug\net6.0\CardanoCalculationBackend.genruntimeconfig.cache
+C:\Users\Mohammadali\source\repos\cardanofinal\CardanoCalculationBackend\bin\Debug\net6.0\FluentValidation.dll

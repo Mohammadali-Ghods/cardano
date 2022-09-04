@@ -69,7 +69,7 @@ namespace Test.Controllers
             CalculationController calculationController = new CalculationController(
                 csvService, cardanoApi.Object,calculationService);
 
-            var result = await calculationController.CalculateCsv(file);
+            var result = await calculationController.CaculateAndGetCsv(file);
 
             result.Content.Should().NotBeEmpty();
             result.Content.Should().NotBeNull();
