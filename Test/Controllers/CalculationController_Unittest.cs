@@ -26,6 +26,7 @@ namespace Test.Controllers
             Fixture AutoData = new Fixture();
 
             var csvService = new CsvService();
+            var calculationService = new CalculationService();
 
             var cardanoApi = new Mock<ICardanoAPI>();
             cardanoApi.Setup(p =>  p.GetRecord("XKZZ2JZF41MRHTR1V493")).ReturnsAsync
@@ -66,7 +67,7 @@ namespace Test.Controllers
 
 
             CalculationController calculationController = new CalculationController(
-                csvService, cardanoApi.Object);
+                csvService, cardanoApi.Object,calculationService);
 
             var result = await calculationController.CalculateCsv(file);
 

@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b60b8f0a-4da6-46bc-a529-9a7558d5345f": {
+      "ProjectGuid": "b60b8f0a-4da6-46bc-a529-9a7558d5345f",
+      "DisplayName": "Test",
+      "ColorIndex": 0
+    },
+    "a40ef513-2959-4c22-b47b-10288cabb14e": {
+      "ProjectGuid": "a40ef513-2959-4c22-b47b-10288cabb14e",
+      "DisplayName": "CardanoCalculationBackend",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

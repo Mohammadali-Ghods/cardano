@@ -11,11 +11,14 @@ namespace CardanoCalculationBackend.Controllers
     {
         private CsvService _csvService;
         private ICardanoAPI _cardanoApi;
+        private CalculationService _calculatorService;
         public CalculationController(CsvService csvService,
-            ICardanoAPI cardanoApi)
+            ICardanoAPI cardanoApi,
+            CalculationService calculationService)
         {
             _csvService = csvService;
             _cardanoApi = cardanoApi;
+            _calculatorService = calculationService;
         }
 
         [HttpPost]
@@ -33,14 +36,9 @@ namespace CardanoCalculationBackend.Controllers
                     var result = await _cardanoApi.GetRecord(data.lei);
                     data.legalname = result.data[0].attributes.entity.legalName;
                     data.bic = result.data[0].attributes.bic[0];
-
-                    if (result.data[0].attributes.entity.legalAddress.country == "GB")
-                        data.transaction_costs = data.notional * data.rate;
-
-                    if (result.data[0].attributes.entity.legalAddress.country == "NL")
-                        data.transaction_costs =
-                            Math.Abs(data.notional * (1 / data.rate) - data.notional);
-
+                    data.transaction_costs = 
+                        _calculatorService.CalculateTransactioCost(data.rate, data.notional,
+                        result.data[0].attributes.entity.legalAddress.country);
                     listOfData.Add(data);
                 }
             }

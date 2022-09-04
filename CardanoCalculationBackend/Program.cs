@@ -18,6 +18,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ICardanoAPI, CardanoApi>();
 builder.Services.AddScoped<CsvService>();
+builder.Services.AddScoped<CalculationService>();
 builder.Services.Configure<ExretnalApiModel>(Configuration.GetSection("ExternalApi"));
 
 var app = builder.Build();

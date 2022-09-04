@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj": {}
+    "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj": {
+    "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj",
         "projectName": "ExternalApi",
-        "projectPath": "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj",
+        "projectPath": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj",
         "packagesPath": "C:\\Users\\Mohammadali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\ExternalApi\\obj\\",
+        "outputPath": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

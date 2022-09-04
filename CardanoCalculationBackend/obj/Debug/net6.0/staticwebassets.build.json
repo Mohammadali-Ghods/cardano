@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yBCP0mkT8NCiKi+8u8EaQhLpPd6wUNtUdKwH8VzrKIQ=",
+  "Hash": "hQSZ2vLlNQ6ryav0/QB2h9VFLFB4VoFnwSEf9+Tf0T8=",
   "Source": "CardanoCalculationBackend",
   "BasePath": "_content/CardanoCalculationBackend",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CardanoCalculationBackend\\wwwroot",
       "Source": "CardanoCalculationBackend",
-      "ContentRoot": "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\CardanoCalculationBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\CardanoCalculationBackend\\wwwroot\\",
       "BasePath": "_content/CardanoCalculationBackend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\CardanoCalculationBackend\\wwwroot\\Start.html",
+      "Identity": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\CardanoCalculationBackend\\wwwroot\\Start.html",
       "SourceId": "CardanoCalculationBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\CardanoCalculationBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\CardanoCalculationBackend\\wwwroot\\",
       "BasePath": "_content/CardanoCalculationBackend",
       "RelativePath": "Start.html",
       "AssetKind": "All",

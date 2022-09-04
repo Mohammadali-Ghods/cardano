@@ -891,11 +891,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj",
+      "projectUniqueName": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj",
       "projectName": "CardanoCalculationBackend",
-      "projectPath": "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj",
+      "projectPath": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj",
       "packagesPath": "C:\\Users\\Mohammadali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\CardanoCalculationBackend\\obj\\",
+      "outputPath": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\CardanoCalculationBackend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -916,8 +916,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj": {
-              "projectPath": "C:\\Users\\Mohammadali\\Source\\Repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj"
+            "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj": {
+              "projectPath": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj"
             }
           }
         }
