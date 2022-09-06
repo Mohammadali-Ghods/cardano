@@ -36,7 +36,8 @@ namespace CardanoCalculationBackend.Controllers
                     listOfData.Add(data);
                 }
 
-                var results = await _cardanoApi.GetRecords(listOfData.Select(x => x.lei).ToArray());
+                var results = await _cardanoApi.GetRecords(listOfData.Select(x => x.lei)
+                    .Distinct().ToArray());
 
                 if (results.IsValid().IsValid)
                 {
