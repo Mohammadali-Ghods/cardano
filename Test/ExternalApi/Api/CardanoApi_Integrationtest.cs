@@ -22,7 +22,7 @@ namespace UnitTest.ExternalApi.Api
             { CardanoAPIUrl = "https://api.gleif.org/api/v1/" });
 
             CardanoApi cardanoApi = new CardanoApi(optionMonitor.Object);
-            var result = await cardanoApi.GetRecord("XKZZ2JZF41MRHTR1V493");
+            var result = await cardanoApi.GetRecords(new string[1] { "XKZZ2JZF41MRHTR1V493" });
             result.data[0].attributes.bic[0].Should().Be("SBILGB2LXXX");
         }
     }

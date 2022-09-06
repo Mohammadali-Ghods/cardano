@@ -29,7 +29,7 @@ namespace Test.Controllers
             var calculationService = new CalculationService();
 
             var cardanoApi = new Mock<ICardanoAPI>();
-            cardanoApi.Setup(p =>  p.GetRecord("XKZZ2JZF41MRHTR1V493")).ReturnsAsync
+            cardanoApi.Setup(p => p.GetRecords(new string[1] { "XKZZ2JZF41MRHTR1V493" })).ReturnsAsync
                 ( new CardanoAPIModel()
                 {
                     data=new List<Data>() 

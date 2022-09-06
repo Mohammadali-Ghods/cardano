@@ -7767,23 +7767,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mohammadali\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Unipoly\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\Test\\Test.csproj",
-      "packagesPath": "C:\\Users\\Mohammadali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\Test\\obj\\",
+      "projectPath": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\Unipoly\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\Test\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Mohammadali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Unipoly\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7791,6 +7787,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\Unipoly\\Desktop\\publishcsharp": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://buget.diffancy.com/v3/index.json": {}
       },
@@ -7798,11 +7795,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj": {
-              "projectPath": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj"
+            "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj": {
+              "projectPath": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj"
             },
-            "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj": {
-              "projectPath": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj"
+            "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi\\ExternalApi.csproj": {
+              "projectPath": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi\\ExternalApi.csproj"
             }
           }
         }
@@ -7869,7 +7866,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

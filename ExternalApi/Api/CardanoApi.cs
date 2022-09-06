@@ -21,12 +21,12 @@ namespace ExternalApi.Api
         }
         #endregion
 
-        public async Task<CardanoAPIModel> GetRecord(string lei)
+        public async Task<CardanoAPIModel> GetRecords(string[] lei)
         {
             var cardanoApiModel = await BaseHttp.Get<CardanoAPIModel>
                 (
               null
-                , _exretnalApiModel.CardanoAPIUrl, "lei-records?filter[lei]=" + lei);
+                , _exretnalApiModel.CardanoAPIUrl, "lei-records?filter[lei]=" + string.Join(",",lei));
 
             return cardanoApiModel;
         }

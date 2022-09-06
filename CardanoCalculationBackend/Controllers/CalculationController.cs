@@ -1,6 +1,7 @@
 ﻿using CardanoCalculationBackend.Models;
 using CardanoCalculationBackend.Services;
 using ExternalApi.Interface;
+using ExternalApi.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CardanoCalculationBackend.Controllers
@@ -24,46 +25,50 @@ namespace CardanoCalculationBackend.Controllers
         [HttpPost]
         public async Task<ContentResult> CaculateAndGetCsv([FromForm] IFormFile file)
         {
-            List<CsvModel> listOfData = new List<CsvModel>();
-
             using (var reader = new StreamReader(file.OpenReadStream()))
             {
+                List<CsvModel> listOfData = new List<CsvModel>();
                 reader.ReadLine();
 
                 while (reader.Peek() >= 0)
                 {
                     CsvModel data = _csvService.ConvertCsvLineIntoObject(reader.ReadLine());
-
-                    if (!data.IsValid().IsValid)
-                    {
-                        listOfData.Add(data);
-                        continue;
-                    }
-
-                    var result = await _cardanoApi.GetRecord(data.lei);
-
-                    if (!result.IsValid().IsValid)
-                    {
-                        data.Error = result.Error;
-                        listOfData.Add(data);
-                        continue;
-                    }
-
-                    data.name = result.data[0].attributes.entity.legalName.name;
-                    data.language = result.data[0].attributes.entity.legalName.language;
-                    data.bic = result.data[0].attributes.bic[0];
-                    data.transaction_costs =
-                        _calculatorService.CalculateTransactioCost(data.rate, data.notional,
-                        result.data[0].attributes.entity.legalAddress.country);
-
                     listOfData.Add(data);
                 }
+
+                var results = await _cardanoApi.GetRecords(listOfData.Select(x => x.lei).ToArray());
+
+                if (results.IsValid().IsValid)
+                {
+                    for (int i = 0; i <= listOfData.Count - 1; i++)
+                    {
+                        if (!listOfData[i].IsValid().IsValid)
+                            continue;
+
+                        var searchinresult = results.data.
+                            Where(x => x.attributes.lei == listOfData[i].lei).FirstOrDefault();
+
+                        if (!searchinresult.IsValid().IsValid)
+                        {
+                            listOfData[i].Error = searchinresult.Error;
+                            continue;
+                        }
+
+                        listOfData[i].name = searchinresult.attributes.entity.legalName.name;
+                        listOfData[i].language = searchinresult.attributes.entity.legalName.language;
+                        listOfData[i].bic = searchinresult.attributes.bic[0];
+                        listOfData[i].transaction_costs =
+                            _calculatorService.CalculateTransactioCost(listOfData[i].rate, listOfData[i].notional,
+                            searchinresult.attributes.entity.legalAddress.country);
+                    }
+
+                    string outPutFile =
+                               ServiceStack.Text.CsvSerializer.SerializeToCsv<CsvModel>(listOfData);
+
+                    return base.Content(outPutFile, "text/csv");
+                }
+                else return base.Content("Some thing wrong in your input CSV please check it","text/html");
             }
-
-            string outPutFile =
-                ServiceStack.Text.CsvSerializer.SerializeToCsv<CsvModel>(listOfData);
-
-            return base.Content(outPutFile, "text/csv");
         }
     }
 }

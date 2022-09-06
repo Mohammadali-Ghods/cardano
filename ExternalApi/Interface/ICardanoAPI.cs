@@ -9,6 +9,6 @@ namespace ExternalApi.Interface
 {
     public interface ICardanoAPI
     {
-        Task<CardanoAPIModel> GetRecord(string lei);
+        Task<CardanoAPIModel> GetRecords(string[] lei);
     }
 }

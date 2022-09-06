@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj": {}
+    "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi\\ExternalApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj": {
+    "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi\\ExternalApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj",
+        "projectUniqueName": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi\\ExternalApi.csproj",
         "projectName": "ExternalApi",
-        "projectPath": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\ExternalApi.csproj",
-        "packagesPath": "C:\\Users\\Mohammadali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammadali\\source\\repos\\cardanofinal\\ExternalApi\\obj\\",
+        "projectPath": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi\\ExternalApi.csproj",
+        "packagesPath": "C:\\Users\\Unipoly\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mohammadali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Unipoly\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Unipoly\\Desktop\\publishcsharp": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://buget.diffancy.com/v3/index.json": {}
         },
@@ -80,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
