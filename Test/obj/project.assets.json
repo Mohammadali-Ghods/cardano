@@ -7772,11 +7772,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\Unipoly\\source\\repos\\cardano\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\Test\\Test.csproj",
+      "projectPath": "C:\\Users\\Unipoly\\source\\repos\\cardano\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\Unipoly\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\Test\\obj\\",
+      "outputPath": "C:\\Users\\Unipoly\\source\\repos\\cardano\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Unipoly\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7795,11 +7795,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj": {
-              "projectPath": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj"
+            "C:\\Users\\Unipoly\\source\\repos\\cardano\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj": {
+              "projectPath": "C:\\Users\\Unipoly\\source\\repos\\cardano\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj"
             },
-            "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi\\ExternalApi.csproj": {
-              "projectPath": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi\\ExternalApi.csproj"
+            "C:\\Users\\Unipoly\\source\\repos\\cardano\\ExternalApi\\ExternalApi.csproj": {
+              "projectPath": "C:\\Users\\Unipoly\\source\\repos\\cardano\\ExternalApi\\ExternalApi.csproj"
             }
           }
         }

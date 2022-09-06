@@ -49,6 +49,12 @@ namespace CardanoCalculationBackend.Controllers
                         var searchinresult = results.data.
                             Where(x => x.attributes.lei == listOfData[i].lei).FirstOrDefault();
 
+                        if (searchinresult == null) 
+                        {
+                            listOfData[i].Error = "We cannot find any specific data for this field";
+                            continue;
+                        }
+
                         if (!searchinresult.IsValid().IsValid)
                         {
                             listOfData[i].Error = searchinresult.Error;

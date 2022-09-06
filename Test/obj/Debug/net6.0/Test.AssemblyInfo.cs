@@ -11,8 +11,8 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CardanoCalculationBackend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\CardanoCalculationBackend", "CardanoCalculationBackend.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ExternalApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi", "ExternalApi.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CardanoCalculationBackend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Unipoly\\source\\repos\\cardano\\CardanoCalculationBackend", "CardanoCalculationBackend.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ExternalApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Unipoly\\source\\repos\\cardano\\ExternalApi", "ExternalApi.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

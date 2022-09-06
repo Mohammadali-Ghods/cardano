@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj": {}
+    "C:\\Users\\Unipoly\\source\\repos\\cardano\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj": {
+    "C:\\Users\\Unipoly\\source\\repos\\cardano\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj",
+        "projectUniqueName": "C:\\Users\\Unipoly\\source\\repos\\cardano\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj",
         "projectName": "CardanoCalculationBackend",
-        "projectPath": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj",
+        "projectPath": "C:\\Users\\Unipoly\\source\\repos\\cardano\\CardanoCalculationBackend\\CardanoCalculationBackend.csproj",
         "packagesPath": "C:\\Users\\Unipoly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\CardanoCalculationBackend\\obj\\",
+        "outputPath": "C:\\Users\\Unipoly\\source\\repos\\cardano\\CardanoCalculationBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Unipoly\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -30,8 +30,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi\\ExternalApi.csproj": {
-                "projectPath": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi\\ExternalApi.csproj"
+              "C:\\Users\\Unipoly\\source\\repos\\cardano\\ExternalApi\\ExternalApi.csproj": {
+                "projectPath": "C:\\Users\\Unipoly\\source\\repos\\cardano\\ExternalApi\\ExternalApi.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi\\ExternalApi.csproj": {
+    "C:\\Users\\Unipoly\\source\\repos\\cardano\\ExternalApi\\ExternalApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi\\ExternalApi.csproj",
+        "projectUniqueName": "C:\\Users\\Unipoly\\source\\repos\\cardano\\ExternalApi\\ExternalApi.csproj",
         "projectName": "ExternalApi",
-        "projectPath": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi\\ExternalApi.csproj",
+        "projectPath": "C:\\Users\\Unipoly\\source\\repos\\cardano\\ExternalApi\\ExternalApi.csproj",
         "packagesPath": "C:\\Users\\Unipoly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\ExternalApi\\obj\\",
+        "outputPath": "C:\\Users\\Unipoly\\source\\repos\\cardano\\ExternalApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Unipoly\\AppData\\Roaming\\NuGet\\NuGet.Config",

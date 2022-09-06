@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fKe6UH8edLbE+eY4nqVvS2xr/rE8Jru+jElTfucAfLg=",
+  "Hash": "10S0drKMiLWlVM/gc/PRIn4ID9bcTvnSivFIOjqgn88=",
   "Source": "CardanoCalculationBackend",
   "BasePath": "_content/CardanoCalculationBackend",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CardanoCalculationBackend\\wwwroot",
       "Source": "CardanoCalculationBackend",
-      "ContentRoot": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\CardanoCalculationBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Unipoly\\source\\repos\\cardano\\CardanoCalculationBackend\\wwwroot\\",
       "BasePath": "_content/CardanoCalculationBackend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\CardanoCalculationBackend\\wwwroot\\Start.html",
+      "Identity": "C:\\Users\\Unipoly\\source\\repos\\cardano\\CardanoCalculationBackend\\wwwroot\\Start.html",
       "SourceId": "CardanoCalculationBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Unipoly\\Source\\Repos\\cardano\\CardanoCalculationBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Unipoly\\source\\repos\\cardano\\CardanoCalculationBackend\\wwwroot\\",
       "BasePath": "_content/CardanoCalculationBackend",
       "RelativePath": "Start.html",
       "AssetKind": "All",
